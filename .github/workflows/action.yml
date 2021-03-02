@@ -14,5 +14,5 @@ jobs:
           node-version: '14.x'
       - run: yarn install
       - run: yarn test
-      - if: github.ref == 'refs/heads/main'
+      - if: github.ref == 'refs/heads/master'
         run: echo 'deploying'

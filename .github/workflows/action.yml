@@ -16,6 +16,6 @@ jobs:
       - run: yarn install
       - run: yarn test
       - if: github.ref == 'refs/heads/main'
-        run: echo "yarn publish --new-version 1.0.${GITHUB_RUN_NUMBER}"
+        run: yarn publish --new-version 1.0.${GITHUB_RUN_NUMBER}
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NODE_AUTH_TOKEN }}

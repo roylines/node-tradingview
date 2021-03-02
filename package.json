@@ -1,0 +1,25 @@
+{
+  "name": "@roylines/tradingview",
+  "version": "0.0.1",
+  "description": "module to access tradingview.com data",
+  "main": "index.js",
+  "dependencies": {},
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "modulePathIgnorePatterns": [],
+    "verbose": true,
+    "collectCoverage": true,
+    "testEnvironment": "node"
+  },
+  "author": "Roy Lines",
+  "license": "MIT"
+}

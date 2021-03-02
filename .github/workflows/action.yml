@@ -1,0 +1,18 @@
+on:
+  push:
+    paths:
+      - "**"
+
+jobs:
+  nodejs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+      - run: yarn install
+      - run: yarn test
+      - if: github.ref == 'refs/heads/main'
+        run: echo 'deploying'

@@ -1,8 +1,3 @@
-# Trading View
-
-## Overview
-A node module for accessing [trading view](https://www.tradingview.com) technical analysis signals. This allows you to access the numbers underpinning, for example, the [BTC to GBP technicals](https://www.tradingview.com/symbols/BTCGBP/technicals/).
-
 # @roylines/tradingview
 
 ![ci](https://github.com/roylines/node-tradingview/actions/workflows/action.yml/badge.svg)

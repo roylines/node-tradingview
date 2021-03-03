@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "module to access tradingview.com data",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
   "engines": {
     "node": ">=14.0.0",
     "npm": ">=6.0.0"
